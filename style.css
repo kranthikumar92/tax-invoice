@@ -333,3 +333,22 @@ table.cpanel td {
 *[contenteditable]:hover, *[contenteditable]:focus, td:hover *[contenteditable], td:focus *[contenteditable], img.hover { background: #fcf3a9; box-shadow: 0 0 1em 0.5em #DEF; }
 
 span[contenteditable] { display: inline-block; }
+
+/* Center-align the logo */
+.logo-container {
+    text-align: center;
+}
+
+/* Limit the width of the logo to 150px */
+.logo-container img {
+    max-width: 350px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Center-align the address and details with Roboto font */
+.center {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: lighter; /* Use a lighter font weight for a smooth appearance */
+}
+
